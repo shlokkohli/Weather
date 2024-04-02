@@ -29,15 +29,15 @@ async function searchWeather(){
 
 
     if (temp > 35) {
-        weather_icon.src = "images/clear.png";
+        weather_icon.src = "clear.png";
     } else if (temp > 25) {
-        weather_icon.src = "images/clouds.png";
+        weather_icon.src = "clouds.png";
     } else if (temp > 5) {
-        weather_icon.src = "images/drizzle.png";
+        weather_icon.src = "drizzle.png";
     } else if (temp >= 0) {
-        weather_icon.src = "images/mist.png";
+        weather_icon.src = "mist.png";
     } else {
-        weather_icon.src = "images/snow.png";
+        weather_icon.src = "snow.png";
     }
     
     weather.style.display = "flex";
