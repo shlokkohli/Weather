@@ -38,6 +38,7 @@ body{
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
+    min-width: 100px;
 }
 
 .search button{
@@ -47,6 +48,8 @@ body{
     border-radius: 50%;
     width: 60px;
     height: 60px;
+    min-height: 50px;
+    min-width: 50px;
     cursor: pointer;
 }
 
